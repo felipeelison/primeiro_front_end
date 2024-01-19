@@ -1,0 +1,85 @@
+body{
+    background-color: #000019;
+    font-family: 'Lilita one';
+    color: white;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.menu_logo{
+    max-width: 150px;
+    }
+
+.menu_lista{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu_lista_item{
+    text-decoration: none;
+    font-size: 36px;
+    color: #d95cff;
+    font-family: 'Press Start 2P', system-ui;
+}
+.menu_curriculo{
+    background-color: #d95cff;
+    color: white;
+    font-family: 'Press Start 2P', system-ui;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.banner{
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/030/716/334/original/houlin-huang-img-bjd0ek83estvdtrutwt6ztndslevrkzaz0n4t2z4bghzz0syste1rkjoz2ywei9kaejobevnpt0.gif?1601436337);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1900px;
+    display: flex;
+    justify-content: center;
+}
+.banner_infos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 70vh;
+    padding: 30px;
+    border-radius: 0 0 60 60;
+    background-color: rgba(0, 0, 1, 0.747);
+}
+.banner_infos_imagem{
+    max-width:1000px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.banner_infos_nome{
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 40px;
+    color: white;
+}
+.banner_infos_cargo{
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 20px;
+    color: #d95cff;
+}
+.sobre{
+    max-width: 80vw;
+    margin: 60px auto;
+    border-top: #d95cff solid 10px;
+    border-bottom: #d95cff solid 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobre_infos_titulo{
+    font-size: 50px;
+    font-family: 'Press Start 2P';
+    line-height: 1,5;
+}    
